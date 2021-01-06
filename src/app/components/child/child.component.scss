@@ -1,0 +1,39 @@
+.child__container {
+  display: flex;
+  flex-direction: column;
+  align-content: space-evenly;
+}
+
+.child__count-value {
+  padding-top: 20px;
+  font-weight: bold;
+  color: darkblue;
+  margin-bottom: 20px;
+}
+
+.child__buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.child__increment--button {
+  margin-right: 10px;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.child__decrement--button {
+  margin-left: 10px;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.child__add-icon {
+  color: blue;
+}
+
+.child__remove-icon {
+  color: blue;
+}

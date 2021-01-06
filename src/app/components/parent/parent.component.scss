@@ -1,0 +1,17 @@
+.parent__container {
+  display: flex;
+  flex-direction: column;
+  align-content: space-evenly;
+}
+
+.parent__modified_count {
+  font-weight: bold;
+  color:red;
+  margin-top: 30px;
+}
+
+.parent__initial-count {
+  padding-top:20px;
+  font-weight: bold;
+  color: chocolate;
+}

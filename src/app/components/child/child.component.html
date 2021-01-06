@@ -1,0 +1,13 @@
+<div class="child__container">
+  <div class="child__count-value">
+    Count: {{count}}
+  </div>
+  <div class="child__buttons">
+      <button *ngIf="isCountDefined()" mat-button class="child__increment--button" (click)="increment()">
+        <mat-icon class="child__add-icon">add</mat-icon>
+      </button>
+      <button *ngIf="isCountDefined()" mat-button class="child__decrement--button" (click)="decrement()">
+        <mat-icon class="child__remove-icon">remove</mat-icon>
+      </button>
+  </div>
+</div>

@@ -1,0 +1,13 @@
+<mat-tab-group class="parent__container">
+  <mat-tab class="parent__tab" label="Parent View">
+    <div class="parent__initial-count">
+      Initial Count: <input name="initialCount" [(ngModel)]="initialCount">
+    </div>
+    <div class="parent__modified_count">
+      Modified Count: {{modifiedCount}}
+    </div>
+  </mat-tab>
+  <mat-tab class="child__tab" label="Child View">
+      <app-child [count]="initialCount" (countEventEmitter)="updateCount($event)"></app-child>
+  </mat-tab>
+</mat-tab-group>
